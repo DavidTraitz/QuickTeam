@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "21619671264",
+    "project_id": "quickteam-f746e",
+    "storage_bucket": "quickteam-f746e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:21619671264:android:c33f2a479779ce434b9085",
+        "android_client_info": {
+          "package_name": "edu.njit.quickteam"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDONAIBJh948Kg_SnUCBjzXBS5KHoznSK0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
