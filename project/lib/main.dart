@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
+import 'second_page.dart'; // Import the second page
 
 void main() {
   runApp(const MyApp());
   /*test*/
-  
+  /*test 5:37*/
 
 }
 
@@ -34,7 +35,11 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      initialRoute: '/',
+      routes: {
+        '/': (context) => const MyHomePage(title: 'Struggling to find team?'),
+        '/second': (context) => const SecondPage(),
+      },
     );
   }
 }
@@ -93,6 +98,7 @@ class _MyHomePageState extends State<MyHomePage> {
         // Center is a layout widget. It takes a single child and positions it
         // in the middle of the parent.
         child: Column(
+          
           // Column is also a layout widget. It takes a list of children and
           // arranges them vertically. By default, it sizes itself to fit its
           // children horizontally, and tries to be as tall as its parent.
@@ -114,6 +120,14 @@ class _MyHomePageState extends State<MyHomePage> {
             Text(
               '$_counter',
               style: Theme.of(context).textTheme.headlineMedium,
+            ),
+            const SizedBox(height: 30),
+            // "Get Started" Button
+            ElevatedButton(
+              onPressed: () {
+                Navigator.pushNamed(context, '/second');
+              },
+              child: const Text('Get Started'),
             ),
           ],
         ),
