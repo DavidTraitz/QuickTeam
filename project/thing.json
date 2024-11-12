@@ -1,0 +1,40 @@
+[{
+    "person": {
+        "name": "David Traitz",
+        "email": "dat62@njit.edu",
+		"skills": {
+            "cooking": [
+                "sushi",
+                "tacos",
+                "pizza"
+            ],
+            "misc skills": [
+                "riding a bicycle",
+                "eating food",
+                "watching youtube",
+                "programming",
+                ""
+            ]
+        }
+    }
+},
+{
+    "person": {
+        "name": "Other person's name",
+        "email": "5555@njit.edu",
+		"skills": {
+            "cooking": [
+                "sushi",
+                "tacos",
+                "pizza"
+            ],
+            "misc skills": [
+                "riding a bicycle",
+                "eating food",
+                "watching youtube",
+                "programming",
+                ""
+            ]
+        }
+    }
+}]
