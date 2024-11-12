@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
+// import 'package:quicteam/project/home.dart';
 import 'screens/login_screen.dart';
-import 'home.dart';
 import 'about_us.dart';
+import 'home.dart';
 import 'service.dart';
 import 'locations.dart';
 import 'myfav.dart';
