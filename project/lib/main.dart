@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
+// import 'package:quicteam/project/home.dart';
 import 'screens/login_screen.dart';
 import 'about_us.dart';
 import 'home.dart';
@@ -12,11 +13,11 @@ import 'elite_ship.dart';
 import 'new_features.dart';
 import 'talk_to_us.dart';
 
-void main() async {
-  WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp();
-  runApp(const MyApp());
-}
+// void main() async {
+//   WidgetsFlutterBinding.ensureInitialized();
+//   await Firebase.initializeApp();
+//   runApp(const MyApp());
+// }
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
